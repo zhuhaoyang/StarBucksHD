@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		688EF5FC156CD5200081C14C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EF5FB156CD5200081C14C /* UIKit.framework */; };
+		688EF5FE156CD5200081C14C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EF5FD156CD5200081C14C /* Foundation.framework */; };
+		688EF600156CD5200081C14C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EF5FF156CD5200081C14C /* CoreGraphics.framework */; };
+		688EF606156CD5200081C14C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 688EF604156CD5200081C14C /* InfoPlist.strings */; };
+		688EF608156CD5200081C14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688EF607156CD5200081C14C /* main.m */; };
+		688EF60C156CD5200081C14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688EF60B156CD5200081C14C /* AppDelegate.m */; };
+		688EF60F156CD5200081C14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688EF60E156CD5200081C14C /* ViewController.m */; };
+		688EF612156CD5200081C14C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688EF610156CD5200081C14C /* ViewController.xib */; };
+		688EF61A156CD5200081C14C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EF619156CD5200081C14C /* SenTestingKit.framework */; };
+		688EF61B156CD5200081C14C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EF5FB156CD5200081C14C /* UIKit.framework */; };
+		688EF61C156CD5200081C14C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EF5FD156CD5200081C14C /* Foundation.framework */; };
+		688EF624156CD5200081C14C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 688EF622156CD5200081C14C /* InfoPlist.strings */; };
+		688EF627156CD5200081C14C /* StarBucksHDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688EF626156CD5200081C14C /* StarBucksHDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		688EF61D156CD5200081C14C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 688EF5EE156CD5200081C14C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688EF5F6156CD5200081C14C;
+			remoteInfo = StarBucksHD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		688EF5F7156CD5200081C14C /* StarBucksHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarBucksHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		688EF5FB156CD5200081C14C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		688EF5FD156CD5200081C14C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		688EF5FF156CD5200081C14C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		688EF603156CD5200081C14C /* StarBucksHD-Info.plist */ = {isa = PBXFileReference; path = "StarBucksHD-Info.plist"; sourceTree = "<group>"; };
+		688EF605156CD5200081C14C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		688EF607156CD5200081C14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		688EF609156CD5200081C14C /* StarBucksHD-Prefix.pch */ = {isa = PBXFileReference; path = "StarBucksHD-Prefix.pch"; sourceTree = "<group>"; };
+		688EF60A156CD5200081C14C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		688EF60B156CD5200081C14C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		688EF60D156CD5200081C14C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		688EF60E156CD5200081C14C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		688EF611156CD5200081C14C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		688EF618156CD5200081C14C /* StarBucksHDTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarBucksHDTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		688EF619156CD5200081C14C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		688EF621156CD5200081C14C /* StarBucksHDTests-Info.plist */ = {isa = PBXFileReference; path = "StarBucksHDTests-Info.plist"; sourceTree = "<group>"; };
+		688EF623156CD5200081C14C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		688EF625156CD5200081C14C /* StarBucksHDTests.h */ = {isa = PBXFileReference; path = StarBucksHDTests.h; sourceTree = "<group>"; };
+		688EF626156CD5200081C14C /* StarBucksHDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarBucksHDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		688EF5F4156CD5200081C14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688EF5FC156CD5200081C14C /* UIKit.framework in Frameworks */,
+				688EF5FE156CD5200081C14C /* Foundation.framework in Frameworks */,
+				688EF600156CD5200081C14C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688EF614156CD5200081C14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688EF61A156CD5200081C14C /* SenTestingKit.framework in Frameworks */,
+				688EF61B156CD5200081C14C /* UIKit.framework in Frameworks */,
+				688EF61C156CD5200081C14C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		688EF5EC156CD5200081C14C = {
+			isa = PBXGroup;
+			children = (
+				688EF601156CD5200081C14C /* StarBucksHD */,
+				688EF61F156CD5200081C14C /* StarBucksHDTests */,
+				688EF5FA156CD5200081C14C /* Frameworks */,
+				688EF5F8156CD5200081C14C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688EF5F8156CD5200081C14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				688EF5F7156CD5200081C14C /* StarBucksHD.app */,
+				688EF618156CD5200081C14C /* StarBucksHDTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688EF5FA156CD5200081C14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688EF5FB156CD5200081C14C /* UIKit.framework */,
+				688EF5FD156CD5200081C14C /* Foundation.framework */,
+				688EF5FF156CD5200081C14C /* CoreGraphics.framework */,
+				688EF619156CD5200081C14C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		688EF601156CD5200081C14C /* StarBucksHD */ = {
+			isa = PBXGroup;
+			children = (
+				688EF60A156CD5200081C14C /* AppDelegate.h */,
+				688EF60B156CD5200081C14C /* AppDelegate.m */,
+				688EF60D156CD5200081C14C /* ViewController.h */,
+				688EF60E156CD5200081C14C /* ViewController.m */,
+				688EF610156CD5200081C14C /* ViewController.xib */,
+				688EF602156CD5200081C14C /* Supporting Files */,
+			);
+			path = StarBucksHD;
+			sourceTree = "<group>";
+		};
+		688EF602156CD5200081C14C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688EF603156CD5200081C14C /* StarBucksHD-Info.plist */,
+				688EF604156CD5200081C14C /* InfoPlist.strings */,
+				688EF607156CD5200081C14C /* main.m */,
+				688EF609156CD5200081C14C /* StarBucksHD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688EF61F156CD5200081C14C /* StarBucksHDTests */ = {
+			isa = PBXGroup;
+			children = (
+				688EF625156CD5200081C14C /* StarBucksHDTests.h */,
+				688EF626156CD5200081C14C /* StarBucksHDTests.m */,
+				688EF620156CD5200081C14C /* Supporting Files */,
+			);
+			path = StarBucksHDTests;
+			sourceTree = "<group>";
+		};
+		688EF620156CD5200081C14C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688EF621156CD5200081C14C /* StarBucksHDTests-Info.plist */,
+				688EF622156CD5200081C14C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		688EF5F6156CD5200081C14C /* StarBucksHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688EF62A156CD5200081C14C /* Build configuration list for PBXNativeTarget "StarBucksHD" */;
+			buildPhases = (
+				688EF5F3156CD5200081C14C /* Sources */,
+				688EF5F4156CD5200081C14C /* Frameworks */,
+				688EF5F5156CD5200081C14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarBucksHD;
+			productName = StarBucksHD;
+			productReference = 688EF5F7156CD5200081C14C /* StarBucksHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		688EF617156CD5200081C14C /* StarBucksHDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688EF62D156CD5200081C14C /* Build configuration list for PBXNativeTarget "StarBucksHDTests" */;
+			buildPhases = (
+				688EF613156CD5200081C14C /* Sources */,
+				688EF614156CD5200081C14C /* Frameworks */,
+				688EF615156CD5200081C14C /* Resources */,
+				688EF616156CD5200081C14C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688EF61E156CD5200081C14C /* PBXTargetDependency */,
+			);
+			name = StarBucksHDTests;
+			productName = StarBucksHDTests;
+			productReference = 688EF618156CD5200081C14C /* StarBucksHDTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		688EF5EE156CD5200081C14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "首正";
+			};
+			buildConfigurationList = 688EF5F1156CD5200081C14C /* Build configuration list for PBXProject "StarBucksHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 688EF5EC156CD5200081C14C;
+			productRefGroup = 688EF5F8156CD5200081C14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				688EF5F6156CD5200081C14C /* StarBucksHD */,
+				688EF617156CD5200081C14C /* StarBucksHDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		688EF5F5156CD5200081C14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688EF606156CD5200081C14C /* InfoPlist.strings in Resources */,
+				688EF612156CD5200081C14C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688EF615156CD5200081C14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688EF624156CD5200081C14C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		688EF616156CD5200081C14C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		688EF5F3156CD5200081C14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688EF608156CD5200081C14C /* main.m in Sources */,
+				688EF60C156CD5200081C14C /* AppDelegate.m in Sources */,
+				688EF60F156CD5200081C14C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688EF613156CD5200081C14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688EF627156CD5200081C14C /* StarBucksHDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		688EF61E156CD5200081C14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688EF5F6156CD5200081C14C /* StarBucksHD */;
+			targetProxy = 688EF61D156CD5200081C14C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		688EF604156CD5200081C14C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688EF605156CD5200081C14C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		688EF610156CD5200081C14C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688EF611156CD5200081C14C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		688EF622156CD5200081C14C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688EF623156CD5200081C14C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		688EF628156CD5200081C14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		688EF629156CD5200081C14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		688EF62B156CD5200081C14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarBucksHD/StarBucksHD-Prefix.pch";
+				INFOPLIST_FILE = "StarBucksHD/StarBucksHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		688EF62C156CD5200081C14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarBucksHD/StarBucksHD-Prefix.pch";
+				INFOPLIST_FILE = "StarBucksHD/StarBucksHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		688EF62E156CD5200081C14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarBucksHD.app/StarBucksHD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarBucksHD/StarBucksHD-Prefix.pch";
+				INFOPLIST_FILE = "StarBucksHDTests/StarBucksHDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		688EF62F156CD5200081C14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarBucksHD.app/StarBucksHD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarBucksHD/StarBucksHD-Prefix.pch";
+				INFOPLIST_FILE = "StarBucksHDTests/StarBucksHDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		688EF5F1156CD5200081C14C /* Build configuration list for PBXProject "StarBucksHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688EF628156CD5200081C14C /* Debug */,
+				688EF629156CD5200081C14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688EF62A156CD5200081C14C /* Build configuration list for PBXNativeTarget "StarBucksHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688EF62B156CD5200081C14C /* Debug */,
+				688EF62C156CD5200081C14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		688EF62D156CD5200081C14C /* Build configuration list for PBXNativeTarget "StarBucksHDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688EF62E156CD5200081C14C /* Debug */,
+				688EF62F156CD5200081C14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 688EF5EE156CD5200081C14C /* Project object */;
+}
