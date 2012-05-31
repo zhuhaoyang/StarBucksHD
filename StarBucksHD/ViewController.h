@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomePageViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UINavigationController *navigation;
+    HomePageViewController *m_HomePageViewController;
 
+}
+@property(nonatomic,strong) UINavigationController *navigation;
+@property(nonatomic,strong) HomePageViewController *m_HomePageViewController;
 @end
